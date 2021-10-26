@@ -1,0 +1,303 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        a{
+            color:black; 
+            text-decoration:none; 
+        }
+
+        #download{
+            margin-left:50px;
+            padding:5px;
+            background-color:black; 
+            cursor:pointer; 
+            color:white; 
+            border-radius:5px;
+
+        }
+
+        .navbar{
+            display:flex;
+            background-color:black; 
+            color:white; 
+        }
+
+        .navbar p{
+            font-size:16px;
+            margin:20px;
+            font-weight:700;
+        }
+
+        h2{
+            margin:0; 
+            padding:0; 
+            box-sizing:border-box; 
+        }
+
+        *{
+            font-family: 'Segoe UI'; 
+            margin:0px; 
+            padding:0px; 
+            box-sizing:border-box; 
+        }
+        .container{
+            width:100%; 
+            height:150vh; 
+            display:flex; 
+        }
+
+       .main-pane{
+           border:0px solid black;
+           width:75%; 
+       }
+
+       .main-pane video{
+           width:100%;
+           height:500px;
+       }
+
+       .toc{
+           border-left:1px solid black;
+           width:25%; 
+           //overflow-y:auto; 
+           
+       }
+
+       .toc .header h2{
+           margin-left:10px;
+           padding:10px;
+       }
+
+       .toc .header{
+           border-bottom:1px solid grey; 
+           font-size:12px;
+       }
+
+        .section .section-header h2 {
+            font-size: 15px;
+            padding: 20px;
+            background-color: #F7F9FA;   
+            color: black;
+        }
+
+
+        .section .section-header ol li {
+            padding:10px 10px;
+            margin-left:30px;
+            color:black;
+        }
+
+        .section .section-header li:hover {
+            background-color: lightgray;  
+           
+        }
+
+        .section {
+            //background-color: #F7F9FA; 
+        }
+
+       .hide{
+           display:none; 
+       }
+
+       .container .main-pane .course-description h2{
+           margin-top:50px;
+           margin-left:25px;
+       }
+
+        .container .main-pane .course-description p {
+            margin-top: 5px;
+            margin-left: 25px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <p>Home</p>
+        <p>About</p>
+        <p>Contact</p>
+    </div>
+
+    <div class="container">
+        <div class="main-pane">
+            <video controls id="v">
+                <source src=" " />
+            </video>
+            <div class="course-description">
+                <h2>About This Course</h2>
+                <p>Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!Become a full-stack web developer with just one course. HTML, CSS, Javascript, Node, React, MongoDB and more!</p>
+            </div>
+        </div>
+        <div class="toc">
+            <div class="header">
+                <h2>Course Content</h2>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2>Project1: Accordion Using JavaScript</h2>
+                    <div class="section-contents hide">
+                        <ol>
+                            <li id="list1"><a href="#">Intro Video</a></li>
+                            <li id="list3">HTML and CSS<span id="download">Download</span></li>
+                            <li id="list4">JavaScript</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2>Project2: Simple Manual Image Slider</h2>
+                    <div class="section-contents hide">
+                        <ol>
+                            <li id="list5">Intro Video</li>
+                            <li id="list6">HTML and CSS<span id="download">Download</span></li>
+                            <li id="list7">JavaScript</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2>Project3: Rock, Paper, Scissors</h2>
+                    <div class="section-contents hide">
+                        <ol>
+                            <li>Intro Video</li>
+                            <li>Project Outline</li>
+                            <li>Resources</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2>Project4: Number Guesser Game</h2>
+                    <div class="section-contents hide">
+                        <ol>
+                            <li>Intro Video</li>
+                            <li>Project Outline</li>
+                            <li>Resources</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2>Section1: Introduction to JavaScript</h2>
+                    <div class="section-contents hide">
+                        <ol>
+                            <li>Intro Video</li>
+                            <li>Project Outline</li>
+                            <li>Resources</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2>Section1: Introduction to JavaScript</h2>
+                    <div class="section-contents hide">
+                        <ol>
+                            <li>Intro Video</li>
+                            <li>Project Outline</li>
+                            <li>Resources</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2>Section1: Introduction to JavaScript</h2>
+                    <div class="section-contents hide">
+                        <ol>
+                            <li>Intro Video</li>
+                            <li>Project Outline</li>
+                            <li>Resources</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    <h2>Section1: Introduction to JavaScript</h2>
+                    <div class="section-contents hide">
+                        <ol>
+                            <li>Intro Video</li>
+                            <li>Project Outline</li>
+                            <li>Resources</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /*var sectionHeader = document.querySelector('.section-header');
+        sectionHeader.addEventListener('click', function (e) {
+            //console.log(e.target.nextElementSibling.classList);
+            e.target.nextElementSibling.classList.toggle('hide');
+        })*/
+
+        var sectionHeader = document.querySelectorAll('.section-header'); 
+        console.log(sectionHeader);
+        for (i = 0; i < sectionHeader.length; i++) {
+            sectionHeader[i].addEventListener('click', function (e) {
+                //console.log(e.target.nextElementSibling.classList);
+                e.target.nextElementSibling.classList.toggle('hide');
+            })
+        }
+
+        var v = document.querySelector('#v'); 
+        var list1 = document.querySelector('#list1');
+        var list2 = document.querySelector('#list2');
+        var list3 = document.querySelector('#list3');
+        var list4 = document.querySelector('#list4');
+        var list5 = document.querySelector('#list5');
+        
+        list1.addEventListener('click', function () {
+            v.src = '1.mp4';
+        })
+
+        list3.addEventListener('click', function () {
+            v.src = '2.mp4';
+        })
+
+        list4.addEventListener('click', function () {
+            v.src = '3.mp4';
+        })
+
+        list5.addEventListener('click', function () {
+            v.src = '4.mp4';
+        })
+
+        list6.addEventListener('click', function () {
+            v.src = '5.mp4';
+        })
+
+        list7.addEventListener('click', function () {
+            v.src = '6.mp4';
+        })
+
+        
+
+        window.addEventListener('DOMContentLoaded', function () {
+            v.src = ''; 
+            console.log(v.src)
+        })
+
+        var download = document.querySelector('#download');
+        download.addEventListener('click', function () {
+            console.log('works...')
+            window.open('http://localhost:3000/public/list', '_blank');
+        })
+
+
+    </script>
+</body>
+</html>
